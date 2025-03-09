@@ -1,3 +1,1 @@
-# letstryagain
-# random-message
-# portfolio
+This is a portfolio website for Kat Griffin
