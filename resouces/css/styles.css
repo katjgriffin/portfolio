@@ -1,7 +1,93 @@
-header{
-    width:100%; 
-    background: url(resouces/images/snowdrops.jpeg);
+
+
+header {
+    width: 100%;
+    background: rgb(255, 251, 240);
+    background: url(/Users/katrinagriffin/Documents/Projects/portfolio/resouces/images/snowdrops.jpeg) no-repeat center center fixed;
+    background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  }
+  
+  #headerContent {
+    margin: 0 auto;
+    height: 30rem;
+    width: 200px;
+    padding: 10px;
+  }
+
+  .topnav {
+    background-color: #028246;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #b5ff2c;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #58e66b;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+body{
+    color: rgb(2, 65, 13);
+    background-color: rgb(255, 251, 240);
+    font-family: Lunasima;
 }
-headerContent{
-    margin: 0 auto; width: 960px;
+
+.articlecontainer{
+  text-align: center;
+}
+
+article {
+  display:inline-block;
+  width: 20rem;
+  padding: 50px;
+  padding-top: 40px;
+  margin: auto;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.article-button{
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.article-button:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
 }
